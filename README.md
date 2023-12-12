@@ -1,6 +1,6 @@
 ## Run project
-docker build --no-cache -t standard-api:1.0 . 
-docker run --restart=always -dp 3000:3000 standard-api:1.0
+- docker build --no-cache -t standard-api:1.0 . 
+- docker run --restart=always -dp 3000:3000 standard-api:1.0
 
 ## Run in development
 Project uses node version 18
